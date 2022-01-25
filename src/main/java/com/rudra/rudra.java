@@ -8,7 +8,7 @@ public class rudra {
 		try {
 			ServerSocket ss = new ServerSocket(9999);
 			ss.accept();
-			System.out.println("   Server");
+			System.out.println("Server");
 			
 			ss.close();
 		} catch (Exception e) {
